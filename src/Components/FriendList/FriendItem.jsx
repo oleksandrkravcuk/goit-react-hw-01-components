@@ -14,6 +14,7 @@ const FriendItem = ( {friend} ) => {
         <p className={css.name}>{name}</p>
     </li>
     );
+    
 };
 
 export default FriendItem;
