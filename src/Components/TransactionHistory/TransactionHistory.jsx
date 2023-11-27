@@ -1,9 +1,9 @@
 import css from '../TransactionHistory/TransactionHistory.module.css'
-import transactions from '../Path/transactions.json'
+import React from 'react';
 
 
 
-const Transaction = ({ items }) => {
+const Transaction = ( { transactions } ) => {
     return (
         <table className={css.container}>
             <thead>

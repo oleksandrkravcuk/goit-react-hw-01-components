@@ -1,15 +1,19 @@
 import css from '../FriendList/FriendList.module.css'
-import friends from '../Path/friends.json'
+import React from 'react'
 
 
 
-export const FrientsItem = () =>{
-    return friends.map(({avatar, name, isOnline, id}) => (
+
+const FrientsItem = ( {friend} ) => {
+    const {id, avatar, name, isOnline} = friend;
+
+    return (
     <li className={css.item} key={id}>
         <span className={`${css.status} ${isOnline ? css.online : css.offline}`}></span>
         <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
         <p className={css.name}>{name}</p>
     </li>
-    ));
+    );
 };
 
+export default FrientsItem;

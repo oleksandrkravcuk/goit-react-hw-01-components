@@ -1,8 +1,9 @@
+import React from 'react' 
 import CSS from '../Profile/Profile.module.css'
-import user from '../Path/user.json' 
 
 
-const Users = () =>{
+
+const Users = ( { user } ) =>{
     return <div className={CSS.profile}>
     <div className={CSS.description}>
         <img

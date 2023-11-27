@@ -1,8 +1,8 @@
 import css from '../Statistics/Statistics.module.css'
-import data from '../Path/data.json'
+import React from 'react'
 
 
-const Data = () =>{
+const Data = ( {data} ) =>{
     return (
     <>
     <section className={css.statistics}>

@@ -1,12 +1,18 @@
 import css from '../FriendList/FriendList.module.css'
-import { FrientsItem } from './FriendItem'
+import  FrientsItem  from './FriendItem'
+import React from 'react'
 
-
-const Frients = () =>{
-    return <ul className={css.friends}>
-    <FrientsItem/>
-    </ul>
+export const FriendList = ( {friends} ) => {
+    return (
+        <ul className={css.fri}>
+            {friends.map((friend) => (
+            <FrientsItem
+            key={friend.id}
+            />
+        ))}
+        </ul>
+    );
 }
 
 
-export default Frients
+export default FriendList;
