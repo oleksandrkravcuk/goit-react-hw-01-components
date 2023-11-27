@@ -1,13 +1,14 @@
-import css from '../FriendList/FriendList.module.css'
-import  FrientsItem  from './FriendItem'
+import css from './FriendList.module.css'
+import  FriendItem  from './FriendItem'
 import React from 'react'
 
-export const FriendList = ( {friends} ) => {
+const FriendList = ( {friends} ) => {
     return (
         <ul className={css.fri}>
             {friends.map((friend) => (
-            <FrientsItem
+            <FriendItem
             key={friend.id}
+            friend={friend}
             />
         ))}
         </ul>

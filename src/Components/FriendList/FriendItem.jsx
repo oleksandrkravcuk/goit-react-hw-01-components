@@ -1,10 +1,10 @@
-import css from '../FriendList/FriendList.module.css'
+import css from './FriendList.module.css'
 import React from 'react'
 
 
 
 
-const FrientsItem = ( {friend} ) => {
+const FriendItem = ( {friend} ) => {
     const {id, avatar, name, isOnline} = friend;
 
     return (
@@ -16,4 +16,4 @@ const FrientsItem = ( {friend} ) => {
     );
 };
 
-export default FrientsItem;
+export default FriendItem;

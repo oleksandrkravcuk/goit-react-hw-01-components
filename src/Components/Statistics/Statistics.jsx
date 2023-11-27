@@ -1,4 +1,4 @@
-import css from '../Statistics/Statistics.module.css'
+import css from './Statistics.module.css'
 import React from 'react'
 
 

@@ -1,5 +1,5 @@
 import React from 'react' 
-import CSS from '../Profile/Profile.module.css'
+import CSS from './Profile.module.css'
 
 
 
