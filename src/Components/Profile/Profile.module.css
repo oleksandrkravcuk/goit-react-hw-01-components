@@ -21,11 +21,11 @@
     border-radius: 50%;
     margin: auto;
     background-color: aliceblue;
-    transition-duration: 200ms;
+    transition-duration: 600ms;
 }
 .avatar:hover {
     transform: scale(1.9);
-    transition-duration: 200ms;
+    transition-duration: 600ms;
 }
 .name{
     padding-top: 50px;
