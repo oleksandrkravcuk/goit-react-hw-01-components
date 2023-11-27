@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-hw-01-components/static/css/main.af3ec039.css",
+    "main.js": "/react-hw-01-components/static/js/main.9aa3c3f3.js",
+    "index.html": "/react-hw-01-components/index.html",
+    "main.af3ec039.css.map": "/react-hw-01-components/static/css/main.af3ec039.css.map",
+    "main.9aa3c3f3.js.map": "/react-hw-01-components/static/js/main.9aa3c3f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af3ec039.css",
+    "static/js/main.9aa3c3f3.js"
+  ]
+}
