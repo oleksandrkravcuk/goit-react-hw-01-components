@@ -16,7 +16,7 @@ const App = () => {
     return (
     <>
     <Users user={user}/>
-    <Statistics data={data}/>
+    <Statistics title="Upload stats" data={data} />
     <FriendList friends={friends} />
     <Transaction transactions={transactions}/>
     </>
