@@ -1,15 +1,16 @@
 import css from './Statistics.module.css'
 import React from 'react'
+import { RandomColor } from './RandomColor';
 
 
-const Data = ( {data} ) =>{
+const Data = ({ title, data }) =>{
     return (
     <>
     <section className={css.statistics}>
-    <h2 className={css.title}>Upload stats</h2>
+    {title && <h2 className={css.title}>{title}</h2>}
     <ul className={css.statist}>
     {data.map(({ id, label, percentage }) => (
-        <li className={css.item} key={id}>
+        <li className={css.item} key={id} style={{ backgroundColor: RandomColor() }}>
         <span className={css.label}>{label}</span>
         <span className={css.percentage}>{percentage}%</span>
         </li>))}
